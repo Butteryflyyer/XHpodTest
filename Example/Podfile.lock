@@ -1,0 +1,16 @@
+PODS:
+  - XHpodTest (1.0.1)
+
+DEPENDENCIES:
+  - XHpodTest (from `../XHpodTest.podspec`)
+
+EXTERNAL SOURCES:
+  XHpodTest:
+    :path: "../XHpodTest.podspec"
+
+SPEC CHECKSUMS:
+  XHpodTest: 7929f3833d65f4e87ae60aaa3807896d7a984457
+
+PODFILE CHECKSUM: 4e8e57e4025abf46fd0bcebc2284e9a4b11f3ac5
+
+COCOAPODS: 1.5.3

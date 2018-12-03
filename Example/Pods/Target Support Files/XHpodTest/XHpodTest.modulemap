@@ -1,0 +1,6 @@
+framework module XHpodTest {
+  umbrella header "XHpodTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

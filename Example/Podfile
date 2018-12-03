@@ -1,11 +1,16 @@
 use_frameworks!
 
 target 'XHpodTest_Example' do
-  pod 'XHpodTest', :path => '../'
+  pod 'XHpodTest', :path => '../XHpodTest.podspec'
 
+
+  
   target 'XHpodTest_Tests' do
     inherit! :search_paths
 
-    pod 'FBSnapshotTestCase'
+#    pod 'FBSnapshotTestCase'
+
+
+
   end
 end
