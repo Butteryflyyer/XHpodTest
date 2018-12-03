@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XHpodTest_Example' do
+  pod 'XHpodTest', :path => '../'
+
+  target 'XHpodTest_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
